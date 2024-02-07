@@ -5,10 +5,9 @@
 
     kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-direct";
-        //diode-direction = "col2row";
         label = "kscan0";
         input-gpios = 
             <&&pro_micro 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-            <&&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            <&&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     };
 };
