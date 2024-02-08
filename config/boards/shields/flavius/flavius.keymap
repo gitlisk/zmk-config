@@ -8,16 +8,9 @@
 
         default_layer {
             bindings = <
-            &kp KP_N5    &mo 1
-            &kp KP_N5  &kp KP_N5
+            &kp A  &kp D
+            &kp B  &kp C
             >;
         }; 
-        
-        bt_layer {
-            bindings = <
-                &bootloader   &none
-                &bt BT_SEL 0  &bt BT_CLR
-            >;
-        };
     };
 };
