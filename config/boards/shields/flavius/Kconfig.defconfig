@@ -2,5 +2,4 @@ if SHIELD_FLAVIUS
 
 config ZMK_KEYBOARD_NAME
     default "flavius"
-
 endif
