@@ -1,0 +1,11 @@
+file_format: "1"
+id: flavius
+name: Flavius
+type: shield
+url: https://github.com/gitlisk/zmk-config
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - flavius_left
+  - flavius_right
