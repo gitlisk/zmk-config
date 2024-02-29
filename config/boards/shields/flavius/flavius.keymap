@@ -8,10 +8,10 @@
 
         default_layer {
             bindings = <
-                &kp N0 &kp N1 &kp N2 &bt BT_CLR_ALL   &kp N0 &kp N1 &kp N2 &bt BT_CLR_ALL
-                &kp N0 &kp N1 &kp N2 &sys_reset       &kp N0 &kp N1 &kp N2 &sys_reset
-                &kp N0 &kp N1 &kp N2 &bootloader      &kp N0 &kp N1 &kp N2 &bootloader
-                &kp N0 &kp N1 &kp N2 &kp N3           &kp N0 &kp N1 &kp N2 &kp N3
+                &kp A &kp E &kp I &bt BT_CLR_ALL                   &kp A &kp E &kp I &bt BT_CLR_ALL   
+                &kp B &kp F &kp J &sys_reset                       &kp B &kp F &kp J &sys_reset       
+                &kp C &kp G &kp K &bootloader                      &kp C &kp G &kp K &bootloader      
+                &kp D &kp H &kp L &kp NUMBER_0                     &kp D &kp H &kp L &kp NUMBER_0     
                 >;
         };
     };
